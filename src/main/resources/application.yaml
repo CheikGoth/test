@@ -1,0 +1,14 @@
+server:
+  port: 8000
+spring:
+  application:
+    name: crud
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/crud_spring_angular?currentSchema=public
+    username: postgres
+    password: 1234
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl auto: update
